@@ -25,7 +25,7 @@ function PlaceHighlight() {
 
   return (
     <section>
-      <div className="flex flex-col  justify-center items-center p-0   bg-stone-50">
+      <div className="flex flex-col  justify-center items-center p-0 bg-stone-50">
         <div className="">ค้นหาที่เที่ยว</div>
         <input
           type="text"
@@ -47,12 +47,12 @@ function PlaceHighlight() {
               photo={items.photos[0]}
               description={
                 items.description.length > 100
-                  ? items.description.substring(0, 100) + "..."
+                  ? items.description.substring(0, 100) + " ..."
                   : items.description
               }
               tags={items.tags}
               url={items.url}
-              otherPics={items.photo}
+              additionalPhotos={items.photos.slice(1)}
             />
           );
         })}
