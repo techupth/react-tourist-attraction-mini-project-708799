@@ -1,7 +1,16 @@
 import "./App.css";
+import Header from "./components/Header";
+import PlaceHighlight from "./components/PlaceHighLight";
+import Footer from "./components/Footer";
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  return (
+    <>
+      <Header />
+      <PlaceHighlight />
+      {/* <Footer /> */}
+    </>
+  );
 }
 
 export default App;
