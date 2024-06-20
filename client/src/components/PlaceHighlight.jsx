@@ -1,6 +1,5 @@
 import axios from "axios";
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PlaceCard from "./PlaceCard";
 
 function PlaceHighlight() {
@@ -53,6 +52,7 @@ function PlaceHighlight() {
               tags={items.tags}
               url={items.url}
               additionalPhotos={items.photos.slice(1)}
+              setSearchText={setSearchText} // Pass the setSearchText function
             />
           );
         })}

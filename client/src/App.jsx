@@ -9,7 +9,6 @@ function App() {
       <Header />
       <PlaceHighlight />
       {/* <Footer /> */}
-      {/* ADD FOR PULL REQUEST*/}
     </>
   );
 }
