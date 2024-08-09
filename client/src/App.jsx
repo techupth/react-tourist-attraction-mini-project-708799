@@ -1,12 +1,12 @@
 import "./App.css";
 import Header from "./components/Header";
-import PlaceHighlight from "./components/PlaceHighLight";
+import LocationHighlight from "./components/LocationHighlight";
 
 function App() {
   return (
     <>
       <Header />
-      <PlaceHighlight />
+      <LocationHighlight />
     </>
   );
 }

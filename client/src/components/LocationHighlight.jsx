@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import PlaceCard from "./PlaceCard";
 
-function PlaceHighlight() {
+function LocationHighlight() {
   const [places, setPlaces] = useState([]);
   const [searchText, setSearchText] = useState("");
 
@@ -61,4 +61,4 @@ function PlaceHighlight() {
   );
 }
 
-export default PlaceHighlight;
+export default LocationHighlight;
